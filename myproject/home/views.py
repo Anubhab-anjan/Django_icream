@@ -8,7 +8,6 @@ def index(request):
     # return HttpResponse("Hello, this is the home page!")
     return render(request,'index.html',context)
 def about(request):
-    print(request)
     return render(request,'about.html')
 
 
